@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <audio id="sound" src=""></audio>
+    <div class="container">
+
+        <div class="search-box">
+            <input type="text" placeholder="enter word to search" id="inp-word">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result" id="result">
+            <div class="word">
+                <h3 id="input_word">Sample</h3>
+                <button onclick="playAudio()">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+            <div class="details">
+                <p id="pos">pos</p>
+                <p id="phonetic">/sample/</p>
+            </div>
+            <p id="word_meaning">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, officiis?</p>
+            <p id="word_example">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, minima!</p>
+        </div>
+    </div>
+
+    <!-- add javascript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
